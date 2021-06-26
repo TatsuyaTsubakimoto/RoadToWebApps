@@ -1,0 +1,15 @@
+body {
+  font-family: 'arial unicode ms';
+  background-image: url('./background.jpg');
+  background-size: 100%;
+  width: 100%;
+}
+
+
+h1 {
+  color: brown;
+}
+
+img {
+  width: 500px;
+}
