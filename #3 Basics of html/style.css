@@ -1,42 +1,23 @@
 body {
+  color: #595959;
   font-family: 'arial unicode ms';
-  background-image: url('./background.jpg');
-  background-size: 100%;
-  width: 100%;
+  background-color: lightgray;
 }
-
 
 h1 {
-  color: gray;
-  width: 100%;
-  background-color: skyblue;
-  align-items: center;
-}
-
-img {
-  width: 500px;
+  border-left: 5px solid cornflowerblue;
+  padding-left: 10px;
 }
 
 .contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 60%;
+  margin: 0px 20%;
 }
 
-#about_wakayama {
-  display: flex;
-  flex-direction: row;
-  width: 100%
+.content {
+  margin-left: 5%;
 }
 
-#about_wakayama .column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 30%;
-}
-
-#about_wakayama .column img {
+.column img {
   width: 100%;
 }
