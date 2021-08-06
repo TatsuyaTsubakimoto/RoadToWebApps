@@ -1,0 +1,33 @@
+body {
+  background-color: gray;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.contents {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.contents button {
+  padding: 0.3em 0.6em;
+  background-color: skyblue;
+  border: 0px;
+  color: white;
+}
+
+.contents form input {
+  height: 1.5em;
+}
+
+#list li {
+  list-style: none;
+  margin-top: 0.5em;
+}
+
+#list li:before {
+  content:'・';
+}

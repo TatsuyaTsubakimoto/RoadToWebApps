@@ -9,6 +9,6 @@ window.onload = function(){
 }
 
 
-var addTask = function(){
+let addTask = function(){
   console.log('ボタンが押されたぞ！');
 }

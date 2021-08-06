@@ -9,7 +9,7 @@ window.onload = function(){
 }
 
 
-var addTask = function(){
+let addTask = function(){
   console.log('ボタンが押されたぞ！');
   document.getElementById('button').setAttribute('style', 'background-color: gray');
 }
