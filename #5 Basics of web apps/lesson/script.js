@@ -6,10 +6,10 @@ window.onload = function(){
 
 
 let addTask = function(){
-  let li = document.createElement('li');
-  let text = document.createTextNode(document.getElementById('input').value);
-  li.addEventListener('click', () => setDone(li));
-  document.getElementById('list').appendChild(li).appendChild(text);
+  let liNode = document.createElement('li');
+  let textNode = document.createTextNode(document.getElementById('input').value);
+  li.addEventListener('click', () => setDone(liNode));
+  document.getElementById('list').appendChild(liNode).appendChild(textNode);
 }
 
 let setDone = function(element){
