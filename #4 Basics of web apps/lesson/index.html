@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
   <script src="./script.js" type="text/javascript"></script>
@@ -10,9 +11,12 @@
     <p>タスクを入力</p>
     <form>
       <input id="input" type="text"/>
-      <button type="button" onclick="addTask()">Add</button>
+      <button type="button" onclick="console.log('clicked')">Add</button>
     </form>
-    <ul id="list"><li>アイスを食べる</li><li>部屋の掃除をする</li></ul>
+    <ul id="list">
+      <li>アイスを食べる</li>
+      <li>部屋の掃除をする</li>
+    </ul>
   </div>
 </body>
 </html>
